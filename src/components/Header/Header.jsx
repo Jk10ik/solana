@@ -4,143 +4,94 @@ import "../../global.css";
 // import { BiUserCircle } from "react-icons/bi";
 import { FiSettings } from "react-icons/fi";
 
-function Header() {
+function Header2() {
   return (
     <>
-      {/* <div className="container">
-    <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-       <span className="fs-4">Simple header</span>
-      </a>
-
-      <ul className="nav nav-pills">
-        <li className="nav-item"><a href="#" className="nav-link active" aria-current="page">Home</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">Features</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">Pricing</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">About</a></li>
-        
-      </ul>
-      <div className="col-md-3 text-end">
-        <ul className="nav nav-pills">
-        <li className='nav-item'><a href="#" className='nav-link'><BiUserCircle className='fs-2' /> </a></li>
-        <li className='nav-item'><a href="#" className='nav-link'><RiEnglishInput className='fs-3' /> </a></li>
-        </ul>
-      </div>
-    </header>
-  </div> */}
-      <header>
-        <div className="px-3 py-2 text-bg-dark">
-          <div className="container1">
-            <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-              <a
-                href="/"
-                className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none"
-              >
-                <span className="fs-4">LOGO</span>
+      <header className="header">
+        <div className="container1 fixed-top mt-1">
+          <nav className="navbar navbar-expand-lg  ">
+            <div className="container-fluid">
+              <a className="navbar-brand logo text-info1" href="#">
+                LOGO
               </a>
-
-              <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-                <li>
-                  <a href="#" className="nav-link text-white">
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="nav-link text-white">
-                    NFTs
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="nav-link text-white">
-                    About Us
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="nav-link text-white">
-                    How It Works?
-                  </a>
-                </li>
-                {/* <li>
-                  <a href="#" className="nav-link text-white">
-                    Customers
-                  </a>
-                </li> */}
-                {/* <li className="dropdown">
-                  <a href="#" className="nav-link text-white dropdown">
-                    <div className="flex-shrink-0 dropdown">
-                      <a
-                        href="#"
-                        className="d-block link-secondary text-decoration-none dropdown-toggle"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        <BiUserCircle className="fs-3 text-white" />
-                      </a>
-                      <ul className="dropdown-menu text-small shadow">
-                        <li>
-                          <a className="dropdown-item" href="#">
-                            New project...
-                          </a>
-                        </li>
-                        <li>
-                          <a className="dropdown-item" href="#">
-                            Settings
-                          </a>
-                        </li>
-                        <li>
-                          <a className="dropdown-item" href="#">
-                            Profile
-                          </a>
-                        </li>
-                        <li>
-                          <hr className="dropdown-divider" />
-                        </li>
-                        <li>
-                          <a className="dropdown-item" href="#">
-                            Sign out
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </a>
-                </li> */}
-                <li>
-                  <button className="btn btn-primary">Register</button>
-                </li>
-                <li>
-                  <a href="#" className="nav-link text-white">
-                    <FiSettings className="fs-4" />
-                    {/*  */}
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="px-3 py-2 border-bottom mb-3">
-          <div className="container d-flex flex-wrap justify-content-center">
-            <form
-              className="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto w-75"
-              role="search"
-            >
-              <input
-                type="search"
-                className="form-control"
-                placeholder="Search..."
-                aria-label="Search"
-              />
-            </form>
-
-            <div className="text-end">
-              <button type="button" className="btn btn-light text-dark me-2">
-                Wallet
+              <button
+                className="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span className="navbar-toggler-icon"></span>
               </button>
+              <div
+                className="collapse navbar-collapse"
+                id="navbarSupportedContent"
+              >
+                <form className="d-flex me-auto" role="search">
+                  <input
+                    className="form-control"
+                    type="search"
+                    placeholder="Search NFTs & Collections"
+                    aria-label="Search"
+                  />
+                  {/* <button
+                    className="btn btn-outline-success border-left-light"
+                    type="submit"
+                  >
+                    Search
+                  </button> */}
+                </form>
+
+                <ul className="navbar-nav  mb-2 mb-lg-0">
+                  <li className="nav-item mx-1">
+                    <a className="nav-link  " aria-current="page" href="#">
+                      Home
+                    </a>
+                  </li>
+                  <li className="nav-item mx-1">
+                    <a className="nav-link active" aria-current="page" href="#">
+                      NFTs
+                    </a>
+                  </li>
+                  <li className="nav-item mx-1">
+                    <a className="nav-link active" aria-current="page" href="#">
+                      About Us
+                    </a>
+                  </li>
+                  <li className="nav-item mx-1">
+                    <a className="nav-link active" aria-current="page" href="#">
+                      How It Works?
+                    </a>
+                  </li>
+                  <li>
+                    <button className="btn btn-info text-white">
+                      Register
+                    </button>
+                  </li>
+                  <li>
+                    <button className="btn btn-info text-white mx-1">
+                      Connect Wallet
+                    </button>
+                  </li>
+                  {/* <li>
+                    <a
+                      href="#"
+                      className="nav-link ms-2 text-black d-flex align-middle"
+                    >
+                      <FiSettings className="fs-4" />
+                    
+                    </a>
+                  </li>  */}
+                </ul>
+              </div>
             </div>
-          </div>
+          </nav>
         </div>
       </header>
     </>
   );
 }
 
-export default Header;
+export default Header2;

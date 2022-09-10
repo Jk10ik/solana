@@ -1,7 +1,8 @@
 import './App.css';
 // import Header from "./components/Header/Header";
-import Header2 from "./components/Header/header2";
-import Home from './components/Home/Home';
+import Header from "./components/Header/header";
+import Home from "./components/Home/Home";
+import TrendingNFTs from "./components/Trending NFTs/TrendingNFTs";
 // import Hero from './components/Hero';
 // import SocialIcone from './components/SocialIcone';
 // import SubHero from "./components/SubHero";
@@ -9,8 +10,9 @@ import Home from './components/Home/Home';
 function App() {
   return (
     <>
-      <Header2 />
-      <Home/>
+      <Header />
+      <Home />
+      <TrendingNFTs />
       {/* <Header /> */}
       {/* <Hero /> */}
       {/* <SocialIcone /> */}

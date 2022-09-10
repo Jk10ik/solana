@@ -1,11 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap");
+@import "../../global.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
 section {
-  background-color: #d5f1ff;
+  background-color: var(--color-bg);
   height: 100vh;
+  /* height: calc(100vh-70px);
+  margin-top: 70px; */
 }
 
 .home {
   display: flex;
   position: relative;
+  font-family: 'Poppins', sans-serif;
 }
 .left {
   height: 90vh;
@@ -24,15 +32,42 @@ section {
   justify-content: center;
 }
 
+.h1-home {
+  height: 168px;
+  width: 439px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 140%;
+}
+
+.p-home {
+  width: 439px;
+  height: 110px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
 .buttons {
   display: flex;
 }
 
 button .btn-info:hover {
-  color: #27b7ff;
-  background-color: white;
+  color: var(--color-primary);
+  background-color: var(--color-bg-secondary);
 }
 
-.bottom{
+.bottom {
   text-align: center;
+}
+
+.btn-info-home {
+  padding: 16px 54px !important;
+  width: 170px !important;
+  height: 57px !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 140% !important;
 }

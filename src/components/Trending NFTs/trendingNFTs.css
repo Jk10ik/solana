@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+ 
+@import "../../global.css";
+
+.trendingNfts {
+  background-color: var(--color-bg-sec);
+  height: 100vh;
+  /* font-family: "Nunito", sans-serif; */
+  font-family: 'Poppins', sans-serif;
+}
+ 
+.trend{
+    background-color: var(--color-bg-sec);
+
+}
+
+.h1-trend {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 140%;
+  text-align: center;
+  align-items: center;
+}
