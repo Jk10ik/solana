@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap");
+
+header{
+  height: 70px;
+  background-color: white;
+}
+.container1{
+    width: 90% !important;
+    margin: 0 60px ;
+    font-family: "Nunito", sans-serif;
+
+  }
+  .border-right-light{
+
+    border-right-color:transparent ;
+    border-right: 0px transparent;
+  }
+  .border-left-light{
+
+    border-left-color:transparent ;
+  }
+    
+
+  
+  
+  ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #27b7ff ;
+    text-decoration-thickness: 4px;
+    color: white;
+  
+  
+  }

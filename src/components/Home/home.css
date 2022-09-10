@@ -1,0 +1,38 @@
+section {
+  background-color: #d5f1ff;
+  height: 100vh;
+}
+
+.home {
+  display: flex;
+  position: relative;
+}
+.left {
+  height: 90vh;
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+}
+
+.right {
+  flex: 0.6;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+}
+
+button .btn-info:hover {
+  color: #27b7ff;
+  background-color: white;
+}
+
+.bottom{
+  text-align: center;
+}
